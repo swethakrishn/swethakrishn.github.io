@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Swetha Krishnan
     - name: Date of Birth
-      value: 14th March 1879
+      value: 26 January 1999
     - name: Languages
-      value: English, German
+      value: English, Hindi, Malayalam
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MSc. in Computer Science
+      institution: University of Massachusetts, Amherst, USA
+      year: 2026 (Expected Graduation)
       description:
         - Description 1.
         - Description 2.
@@ -31,22 +31,16 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Applied Scientist
+      institution: Indian Space Research Organisation
+      year: 2021 - 2024
       description:
-        - Description 1.
+        - Human Spaceflight Centre
         - Description 2.
         - title: Description 3.
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
 
     - title: Director
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
@@ -71,22 +65,21 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2016 - 2021
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Full Ride Scholoarhip for Undergraduate Studies
+    - year: 2024
       items:
-        - Max Planck Medal
+        - Bost Poster Presentation
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computer Vision.
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Deep Learning with Neural Networks (CNNs, etc.)
+        - Spiking Neural Networks
+    - title: Systems, Computational and Cognnitive Neuroscience.
       items:
         - Description 1.
         - Description 2.
@@ -94,4 +87,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Photography, Badminton, Writing, Piano
